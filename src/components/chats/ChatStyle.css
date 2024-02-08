@@ -1,0 +1,66 @@
+ul{
+    list-style-type: none;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid #f0f0f0;
+    height: 50px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+.chattitle{
+    color: #fff;
+    line-height: 100px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 15px 15px 0 0;
+    background: linear-gradient(-135deg, #c850c0, #4158d0);
+}
+
+
+ul .lichat{
+    display: flex;
+    padding: 10px;
+    height: 50px;
+    width: 100%;
+    margin-top: 10px;
+}
+li a:hover{
+    background: #f0f0f0;
+}
+
+.bodyChat{
+    display: grid;
+    height: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    place-items: center;
+    background: #f2f2f2;
+}
+
+.wrapper form .chatfield{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.chatwrapper{
+    text-align: center;
+    width: 1000px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+}
